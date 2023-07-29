@@ -16,7 +16,7 @@ const App = () => {
           className='relative w-40 h-auto max-h-[5rem] top-8 left-4 lg:left-20'
         />
       </div>
-      <div className='flex min-h-full flex-col justify-start px-6 lg:px-8 mt-10 '>
+      <div className='flex min-h-full flex-col justify-start px-6 lg:px-8 mt-6 lg:mt-0 '>
         <div className='bg-white h-auto mx-auto py-10 px-16 rounded-xl'>
           <div className='sm:mx-auto sm:w-full sm:max-w-sm flex flex-col justify-center items-center'>
             <svg
