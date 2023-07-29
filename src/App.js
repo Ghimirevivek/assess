@@ -8,7 +8,7 @@ const App = () => {
     setActiveDiv(id);
   };
   return (
-    <div className='w-screen h-screen bg-slate-100 '>
+    <div className='w-screen h-[110vh] bg-slate-100 '>
       <div className='flex w-full h-20'>
         <img
           src={Logo}
