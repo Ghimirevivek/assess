@@ -126,10 +126,10 @@ const App = () => {
                   <div
                     id='div-1-20'
                     onClick={() => handleClick('div-1-20')}
-                    className={`inline-block w-auto h-auto bg-gray-200 px-3 py-1 text-md  rounded-sm font-semibold cursor-pointer ${
+                    className={`inline-block w-auto h-auto  px-3 py-1 text-md  rounded-sm font-semibold cursor-pointer ${
                       activeDiv === 'div-1-20'
                         ? 'bg-blue-500 text-white'
-                        : 'text-gray-600'
+                        : ' bg-gray-200 text-gray-600'
                     }`}
                   >
                     1-20
@@ -137,10 +137,10 @@ const App = () => {
                   <div
                     id='div-21-50'
                     onClick={() => handleClick('div-21-50')}
-                    className={`inline-block w-auto h-auto bg-gray-200 px-3 py-1 text-md  rounded-sm font-semibold cursor-pointer ${
+                    className={`inline-block w-auto h-auto  px-3 py-1 text-md  rounded-sm font-semibold cursor-pointer ${
                       activeDiv === 'div-21-50'
                         ? 'bg-blue-500 text-white'
-                        : 'text-gray-600'
+                        : 'bg-gray-200 text-gray-600'
                     }`}
                   >
                     21-50
@@ -148,10 +148,10 @@ const App = () => {
                   <div
                     id='div-51-200'
                     onClick={() => handleClick('div-51-200')}
-                    className={`inline-block w-auto h-auto bg-gray-200 px-3 py-1 text-md  rounded-sm font-semibold cursor-pointer ${
+                    className={`inline-block w-auto h-auto  px-3 py-1 text-md  rounded-sm font-semibold cursor-pointer ${
                       activeDiv === 'div-51-200'
                         ? 'bg-blue-500 text-white'
-                        : 'text-gray-600'
+                        : 'bg-gray-200 text-gray-600'
                     }`}
                   >
                     51-200
@@ -159,10 +159,10 @@ const App = () => {
                   <div
                     id='div-201-500'
                     onClick={() => handleClick('div-201-500')}
-                    className={`inline-block w-auto h-auto bg-gray-200 px-3 py-1 text-md  rounded-sm font-semibold cursor-pointer ${
+                    className={`inline-block w-auto h-auto  px-3 py-1 text-md  rounded-sm font-semibold cursor-pointer ${
                       activeDiv === 'div-201-500'
                         ? 'bg-blue-500 text-white'
-                        : 'text-gray-600'
+                        : 'bg-gray-200 text-gray-600'
                     }`}
                   >
                     201-500
@@ -170,10 +170,10 @@ const App = () => {
                   <div
                     id='div-500+'
                     onClick={() => handleClick('div-500+')}
-                    className={`inline-block w-auto h-auto bg-gray-200 px-3 py-1 text-md rounded-sm font-semibold cursor-pointer ${
+                    className={`inline-block w-auto h-auto  px-3 py-1 text-md rounded-sm font-semibold cursor-pointer ${
                       activeDiv === 'div-500+'
                         ? 'bg-blue-500 text-white'
-                        : 'text-gray-600'
+                        : 'bg-gray-200 text-gray-600'
                     }`}
                   >
                     500+
