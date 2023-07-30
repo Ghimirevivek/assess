@@ -18,7 +18,7 @@ const App = () => {
       </div>
       <div className='flex min-h-[90vh] flex-col justify-start px-6 lg:px-8 mt-2 lg:mt-0'>
         <div className='bg-white h-auto mx-auto py-6 px-12 rounded-xl'>
-          <div className='sm:mx-auto sm:w-full sm:max-w-[340px] flex flex-col justify-center items-center'>
+          <div className='sm:mx-auto sm:w-full sm:max-w-[350px] flex flex-col justify-center items-center'>
             <svg
               width='52'
               height='48'
