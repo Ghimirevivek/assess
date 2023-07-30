@@ -16,8 +16,8 @@ const App = () => {
           className='relative w-40 h-auto max-h-[5rem] top-2 left-4 lg:left-20'
         />
       </div>
-      <div className='flex min-h-[90vh] flex-col justify-start px-6 lg:px-8 mt-2 lg:mt-0'>
-        <div className='bg-white h-auto mx-auto py-6 px-12 rounded-xl'>
+      <div className='flex min-h-[90vh] flex-col justify-start px-6 lg:px-8 mt-2 lg:mt-0 overflow-hidden'>
+        <div className='bg-white h-auto mx-auto py-6 px-10 rounded-xl'>
           <div className='sm:mx-auto sm:w-full sm:max-w-[350px] flex flex-col justify-center items-center'>
             <svg
               width='52'
