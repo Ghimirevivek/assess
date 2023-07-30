@@ -16,9 +16,9 @@ const App = () => {
           className='relative w-40 h-auto max-h-[5rem] top-2 left-4 lg:left-20'
         />
       </div>
-      <div className='flex min-h-[90vh] flex-col justify-start px-6 lg:px-8 mt-4 lg:mt-0'>
-        <div className='bg-white h-auto mx-auto py-8 px-14 rounded-xl'>
-          <div className='sm:mx-auto sm:w-full sm:max-w-[350px] flex flex-col justify-center items-center'>
+      <div className='flex min-h-[90vh] flex-col justify-start px-6 lg:px-8 mt-2 lg:mt-0'>
+        <div className='bg-white h-auto mx-auto py-6 px-12 rounded-xl'>
+          <div className='sm:mx-auto sm:w-full sm:max-w-[340px] flex flex-col justify-center items-center'>
             <svg
               width='52'
               height='48'
@@ -51,15 +51,15 @@ const App = () => {
             <h2 className='mt-1 text-center text-2xl font-semibold leading-9 tracking-tight text-gray-900'>
               It's a delight to have you onboard
             </h2>
-            <span className='mt-2 text-gray-500 font-semibold'>
+            <span className='mt-1 text-gray-500 font-semibold'>
               Help us know you better.
             </span>
-            <span className='mt-2 text-gray-500 text-md text-center px-10'>
+            <span className='mt-1 text-gray-500 text-md text-center px-10'>
               (This is how we optimize Wobot as per your bussiness needs)
             </span>
           </div>
 
-          <div className='mt-2 sm:mx-auto sm:w-full sm:max-w-sm'>
+          <div className='mt-1 sm:mx-auto sm:w-full sm:max-w-sm'>
             <form className='flex flex-col justify-center gap-2' action='#'>
               <div>
                 <label
@@ -68,7 +68,7 @@ const App = () => {
                 >
                   Your name
                 </label>
-                <div className='mt-2'>
+                <div className='mt-1'>
                   <input
                     id='name'
                     type='text'
@@ -86,7 +86,7 @@ const App = () => {
                 >
                   Company name
                 </label>
-                <div className='mt-2'>
+                <div className='mt-1'>
                   <input
                     id='company'
                     type='text'
@@ -104,7 +104,7 @@ const App = () => {
                 >
                   Industry
                 </label>
-                <div className='mt-2'>
+                <div className='mt-1'>
                   <select
                     id='industry'
                     type='text'
@@ -122,7 +122,7 @@ const App = () => {
                 <label className='block text-md font-medium leading-6 text-gray-600 mt-3'>
                   Number of locations
                 </label>
-                <div className='mt-2 flex items-center gap-2.5 flex-wrap'>
+                <div className='mt-1 flex items-center gap-2.5 flex-wrap'>
                   <div
                     id='div-1-20'
                     onClick={() => handleClick('div-1-20')}
@@ -184,7 +184,7 @@ const App = () => {
               <div>
                 <button
                   type='submit'
-                  className='mt-5 flex w-full justify-center items-center rounded-md bg-blue-600 h-10 text-md font-semibold leading-6 text-white shadow-sm hover:bg-blue-500'
+                  className='mt-4 flex w-full justify-center items-center rounded-md bg-blue-600 h-10 text-md font-semibold leading-6 text-white shadow-sm hover:bg-blue-500'
                 >
                   Get Started
                 </button>
